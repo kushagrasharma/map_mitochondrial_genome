@@ -28,5 +28,5 @@ while len(read_forward) < 10000:
     read_backward.append(backward_read)
 
 
-SeqIO.write(read_forward, "forward_reads.fa", "fasta")
-SeqIO.write(read_backward, "backwards_reads.fa", "fasta")
+SeqIO.write(read_forward, "reads/forward_reads.fa", "fasta")
+SeqIO.write(read_backward, "reads/backwards_reads.fa", "fasta")
