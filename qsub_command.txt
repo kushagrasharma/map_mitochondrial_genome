@@ -1,0 +1,2 @@
+qsub /home/unix/kushagra/map_mitochondrial_genome/index_Hg38.sh
+id: 24727067

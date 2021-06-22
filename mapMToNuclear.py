@@ -14,6 +14,8 @@ read_forward = []
 read_backward = []
 
 while len(read_forward) < 10000000:
+    if len(read_forward) % 10000 == 0:
+    	print(len(read_forward))
     read_len = int(np.random.normal(200, 60))
     if read_len < 60:
         continue
